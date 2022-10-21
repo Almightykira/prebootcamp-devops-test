@@ -11,6 +11,28 @@
 7. Apa yang anda ketahui tentang Orchestration Container System?
 
 Cara pengerjaan, silahkan update file ini tulis jawabanya di bawah ini
+1. Devops adalah adalah suatu culture/kebudayaan/pola kerja yang melakukan proses 
+build, test, dan release perangkat lunak dengan cara menjembatani kolaborasi antar
+tim developer operation hingga manajemen dan meningkatkan produk yang stabil dalam
+waktu yang lebih cepat.
+2. yang saya tahu tenatang infrastructure ada kata lain yaitu (IAC) Infrastructure as Code 
+ yaitu sebuah produk dalam kode yang dapat diprogram, distandardisasikan, dan mudah untuk diduplikasi.
+3. server adalah suatu sistem komputer yang memberikan layanan berupa menyimpan beragam jenis data
+yang disimpan melalui server berupa beragam jenis informasi yang kompleks. dan contoh dari server yaitun salah satunya
+"web server" yaitu sebuah jaringan komputer yang menerima kode sedemikian rupa dari browser lalu mengirimnya kembali 
+dalam bentuk laman web. Laman web tersebut dikirim oleh web server dalam bentuk dokumen HTML dan CSS yang kemudian diproses 
+oleh browser menjadi laman-laman web yang menarik dan mudah dibaca oleh pengguna.
+4. karena jikalau suatu software itu tidak ada server maka bisa dikatakan software tersebut tidak akan bisa dipakai karena
+tidak ada sekumpulan informasi atau data yang dapat disimpan atau didiperoleh software tersebut.
+5. 1). Virtualisasi yaitu virtual machine yang dapat membuat beberapa komputer virtual dalam satu mesin server
+   2). Container yaitu paket atau aplikasi yang mengandalkan isolasi virtual untuk menjalankan aplikasi yang dapat menjalankan 
+       sistem operasi kernel secara simultan tanpa memerlukan mesin virtual (VMs).
+6. karena Container menyediakan fleksibilitas secara keseluruhan dibandingkan menggunakan virtual machine. Container dapat langsung 
+berjalan diatas sistem operasi tanpa menggunakan hypervisor. Container juga dapat membagi resource pada OS beserta fungsinya. hal ini 
+sangat menguntungkan secara performa dan penggunaan resource dikarenakan aplikasi yang digunakan hanya menggunakan resource berdasarkan 
+apa yang dipakai saja.
+7. Container orchestration yaitu sebagai solusi untuk deployment, scaling, load balancing dan operasi lainnya untuk menjalankan layanan dan
+beban kerja dalam container.
 
 ## Task 1 (Virtualization)
 
