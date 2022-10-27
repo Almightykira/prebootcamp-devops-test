@@ -5,9 +5,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - POSTGRES_PASSWORD
-      - POSTGRES_USER
-      - POSTGRES_DB
+      - POSTGRES_DB=kirahadian12
+      - POSTGRES_USER=rizki
+      - POSTGRES_PASSWORD=12345678
     volumes:
       - pg_data:/var/lib/postgresql/data
   spring-boot:
@@ -17,9 +17,9 @@ services:
     environment:
       - DATABASE_HOST=postgres
       - DATABASE_PORT=5432
-      - DATABASE_NAME=${POSTGRES_DB}
-      - DATABASE_USER=${POSTGRES_USER}
-      - DATABASE_PASSWORD=${POSTGRES_PASSWORD}
+      - DATABASE_NAME=kirahadian12
+      - DATABASE_USER=rizki
+      - DATABASE_PASSWORD=12345678
       - APPLICATION_PORT=8080
     depends_on:
       - postgres
